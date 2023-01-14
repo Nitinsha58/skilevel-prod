@@ -236,6 +236,9 @@ body {
         width: 100%;
         margin: 0;
     }
+    .details p { 
+        width: 100% !important;
+    }
 
     .logo {
         width: 80%;
