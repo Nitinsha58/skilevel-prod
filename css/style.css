@@ -231,6 +231,12 @@ body {
         background-position: top 50px right ;
         background-size: 100% auto;
     }
+    .header {
+        padding: 1rem;
+    }
+    .container {
+        padding: 1rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
