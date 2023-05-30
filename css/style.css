@@ -226,6 +226,11 @@ body {
     .heading {
         font-size: 2.5rem;
     }
+
+    body {
+        background-position: top 50px right ;
+        background-size: 100% auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
