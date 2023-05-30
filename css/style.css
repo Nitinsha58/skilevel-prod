@@ -225,6 +225,9 @@ body {
     .side-img {
         width: 100%;
     }
+    .heading {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
