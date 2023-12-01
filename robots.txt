@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /node_modules/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /android-chrome-192x192.png
+Disallow: /android-chrome-512x512.png
+Disallow: /apple-touch-icon.png
+Disallow: /favicon.ico
+Disallow: /favicon.svg
+Disallow: /googlec4722faba844a565.html
+Disallow: /sapp.js
+Disallow: /CNAME
+Disallow: /head.html
+Disallow: /package-lock.json
+Disallow: /package.json
+Disallow: /python-book.html
+Disallow: /README.md
+Disallow: /site.webmanifest
+Disallow: /tailwind.config.js
+
+Sitemap: https://skilevel.com/sitemap.xml
