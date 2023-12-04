@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @font-face {
     font-family: 'Playfair';
     src: url('../fonts/PlayfairDisplay-VariableFont_wght.woff') format('woff'),
@@ -115,3 +120,6 @@ html, body {
         padding: 1rem 1rem;
     }
 }
+
+
+

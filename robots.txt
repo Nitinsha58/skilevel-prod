@@ -1,10 +1,3 @@
 User-agent: *
-Disallow: /node_modules/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /apple-touch-icon.png
-Disallow: /package-lock.json
-Disallow: /README.md
-Disallow: /tailwind.config.js
 
 Sitemap: https://skilevel.com/sitemap.xml

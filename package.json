@@ -1,6 +1,14 @@
 {
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^10.1.0",
     "prettier": "^3.1.0",
-    "prettier-plugin-tailwindcss": "^0.5.7"
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "build:css": "postcss css/python-book.css -o dist/styles.css",
+    "watch:css": "postcss css/python-book.css -o dist/styles.css --watch"
   }
 }
