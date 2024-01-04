@@ -1,232 +1,250 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+    rel="stylesheet" />
 
-      h1 {
-        font-family: "Playfair Display";
-      }
-    </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap");
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="dist/styles.css" />
+    h1 {
+      font-family: "Playfair Display";
+    }
+  </style>
 
-    <!--Recommended Meta Tags-->
-    <meta charset="utf-8" />
-    <meta name="language" content="english" />
-    <meta http-equiv="content-type" content="text/html" />
-    <meta name="author" content="Nitin, Founder of Skilevel" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="dist/styles.css" />
 
-    <meta name="book:author" content="Nitin, Founder of Skilevel" />
-    <meta name="book:release_date" content="2023-11-30" />
-    <meta name="book:genre" content="Programming, Technology, Education" />
-    <meta name="book:isbn" content="978-93-6013-799-1" />
-    <meta name="book:publisher" content="Skilevel Publications" />
-    <meta name="book:language" content="English" />
+  <!--Recommended Meta Tags-->
+  <meta charset="utf-8" />
+  <meta name="language" content="english" />
+  <meta http-equiv="content-type" content="text/html" />
+  <meta name="author" content="Nitin, Founder of Skilevel" />
 
-    <meta
-      property="og:title"
-      content="The Python Code: A Practical Guide For Beginners | Python Programming Basics"
-    />
-    <meta
-      property="og:description"
-      content="Unlock the essentials of Python programming with 'The Python Code'—a comprehensive guide for beginners by Nitin, Founder of Skilevel. Learn through real-life examples, diagrams, and hands-on exercises. Start coding today!"
-    />
-    <meta property="og:image" content="https://skilevel.com/images/book.jpg" />
-    <meta
-      property="og:url"
-      content="https://play.google.com/store/books/details/Nitin_The_Python_Code?id=pO3EEAAAQBAJ&hl=en&gl=US"
-    />
-    <meta property="og:type" content="book" />
+  <meta name="book:author" content="Nitin, Founder of Skilevel" />
+  <meta name="book:release_date" content="2023-11-30" />
+  <meta name="book:genre" content="Programming, Technology, Education" />
+  <meta name="book:isbn" content="978-93-6013-799-1" />
+  <meta name="book:publisher" content="Skilevel Publications" />
+  <meta name="book:language" content="English" />
 
-    <meta
-      name="no-email-collection"
-      content="http://www.unspam.com/noemailcollection/"
-    />
+  <meta property="og:title" content="The Python Code: A Practical Guide For Beginners" />
+  <meta property="og:description"
+    content="'The Python Code'-your essential beginner's guide. Master basics through practical, real-life problem-solving. Begin your journey with a structured and practical approach" />
+  <meta property="og:image" content="https://skilevel.com/images/book.jpg" />
+  <meta property="og:url"
+    content="https://play.google.com/store/books/details/Nitin_The_Python_Code?id=pO3EEAAAQBAJ&hl=en&gl=US" />
+  <meta property="og:type" content="book" />
 
-    <title>
-      The Python Code : A Practicel Guide For Beginners | Python Programming
-      Book
-    </title>
-    <meta
-      name="description"
-      content="Unlock the essentials of Python programming with 'The Python Code'—your comprehensive guide for beginners. Learn through real-life examples, diagrams, and hands-on exercises. Start coding today!"
-    />
-    <meta
-      name="keywords"
-      content="Python programming, beginners guide, coding basics, practical Python, programming book, hands-on exercises"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="distribution" content="web" />
-    <meta name="robots" content="noodp" />
+  <meta name="no-email-collection" content="http://www.unspam.com/noemailcollection/" />
 
-    <!-- Meta Tags for HTML pages on Mobile -->
-    <meta name="format-detection" content="telephone=yes" />
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    The Python Code : A Practicel Guide For Beginners | Python Programming
+    Book
+  </title>
+  <meta name="keywords"
+    content="Python programming, beginners guide, coding basics, practical Python, programming book, hands-on exercises" />
+  <meta name="robots" content="index,follow" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="distribution" content="web" />
+  <meta name="robots" content="noodp" />
 
-    <!-- http-equiv Tags -->
-    <meta http-equiv="Content-Style-Type" content="text/css" />
-    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <!-- Meta Tags for HTML pages on Mobile -->
+  <meta name="format-detection" content="telephone=yes" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#4a4a4a" />
-  </head>
+  <!-- http-equiv Tags -->
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
 
-  <body>
-    <header class="header">
-      <img class="logo" src="images/logo1.png" alt="Skilevel" />
-    </header>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#4a4a4a" />
+</head>
 
-    <main
-      class="mx-4 flex flex-col justify-around py-8 sm:mx-8 md:mx-16 lg:mb-16 lg:mt-4 lg:flex-row xl:mx-28"
-    >
-      <div class="flex justify-center lg:mt-20 lg:w-1/2">
-        <div class="">
-          <h1
-            class="w-fit whitespace-nowrap font-['playfair'] text-5xl md:text-6xl"
-          >
-            The Python Code<span
-              class="block whitespace-normal font-['playfair'] text-3xl md:text-4xl lg:mt-4"
-              >A Practical Guide for Beginners</span
-            >
-          </h1>
-          <p class="mt-4 md:w-4/5 lg:text-lg">
-            Discover the essentials of Python programming in our comprehensive
-            guide for beginners. Learn through real-life examples, diagrams, and
-            hands-on exercises. Build a strong foundation with our structured
-            approach. Start coding today!
-          </p>
-          <div class="mt-8 flex items-center justify-center md:justify-normal">
-            <div class="flex items-start">
-              <img
-                src="images/icons/book.svg"
-                class="w-6"
-                alt="Number Of Pages"
-              />
-              <div class="ml-2">
-                <p class="text-lg font-medium">230</p>
-                <span class="text-sm">Pages</span>
-              </div>
-            </div>
-            <div
-              class="ml-4 h-8 w-[2px] rounded bg-black opacity-20 md:ml-8"
-            ></div>
-            <div class="ml-4 flex items-start md:ml-8">
-              <img
-                src="images/icons/book.svg"
-                class="w-6"
-                alt="Number Of Pages"
-              />
-              <div class="ml-2">
-                <p class="text-lg font-medium">English</p>
-                <span class="text-sm">Language</span>
-              </div>
-            </div>
-            <div
-              class="ml-4 h-8 w-[2px] rounded bg-black opacity-20 md:ml-8"
-            ></div>
-            <div class="ml-4 flex items-start md:ml-8">
-              <img
-                src="images/icons/book.svg"
-                class="w-6"
-                alt="Number Of Pages"
-              />
-              <div class="ml-2">
-                <p class="text-lg font-medium">400+</p>
-                <span class="text-sm">Questions</span>
-              </div>
+<body>
+  <header class="header">
+    <img class="logo" src="images/logo1.png" alt="Skilevel" />
+  </header>
+
+  <main class="mx-4 flex flex-col justify-around py-8 sm:mx-8 md:mx-16 lg:mb-16 lg:mt-4 lg:flex-row xl:mx-28">
+    <div class="flex justify-center lg:mt-20 lg:w-1/2">
+      <div class="">
+        <h1 class="w-fit whitespace-nowrap font-['playfair'] text-5xl md:text-6xl">
+          The Python Code<span class="block whitespace-normal font-['playfair'] text-3xl md:text-4xl lg:mt-4">A
+            Practical Guide for Beginners</span>
+        </h1>
+        <p class="mt-4 md:w-4/5 lg:text-lg">
+          Introducing "The Python Code" - an essential guide for beginners seeking an introduction to Python. Unlock the potential of Python through a practical approach to real-life problems. This book serves as your key to mastering the basics, offering a structured path for beginners to delve into the world of Python code. Begin your journey with "The Python Code" and adopt a practical approach to mastering the basics for real-life problem-solving.
+        </p>
+        <div class="mt-8 flex items-center justify-center md:justify-normal">
+          <div class="flex items-start">
+            <img src="images/icons/book.svg" class="w-6" alt="Number Of Pages" />
+            <div class="ml-2">
+              <p class="text-lg font-medium">230</p>
+              <span class="text-sm">Pages</span>
             </div>
           </div>
-          <div class="flex items-center justify-center px-16 py-8 md:hidden">
-            <img
-              class="shadow-2xl"
-              src="images/book.jpg"
-              alt="The Python Code A Practical Guide for Beginners"
-            />
+          <div class="ml-4 h-8 w-[2px] rounded bg-black opacity-20 md:ml-8"></div>
+          <div class="ml-4 flex items-start md:ml-8">
+            <img src="images/icons/book.svg" class="w-6" alt="Number Of Pages" />
+            <div class="ml-2">
+              <p class="text-lg font-medium">English</p>
+              <span class="text-sm">Language</span>
+            </div>
           </div>
-          <div class="mt-4 flex justify-between md:my-8 md:justify-normal">
-            <a
-              href="https://play.google.com/store/books/details/Nitin_The_Python_Code?id=pO3EEAAAQBAJ&hl=en&gl=US"
-              class="duration-400 cursor-pointer whitespace-pre rounded-lg bg-[#FFC942] px-8 py-3 text-xl font-medium transition-all ease-in-out hover:-translate-y-0.5 hover:drop-shadow-xl"
-              >Buy Now</a
-            >
-            <a
-              href="https://play.google.com/books/reader?id=pO3EEAAAQBAJ&pg=GBS.PA48&hl=en"
-              class="ml-0 block cursor-pointer whitespace-pre rounded-lg border border-[#FFC942] bg-[#f7f7f7] px-8 py-3 font-medium transition-all ease-in-out hover:-translate-y-0.5 hover:drop-shadow-xl md:ml-8 lg:ml-8"
-              >Free Demo</a
-            >
+          <div class="ml-4 h-8 w-[2px] rounded bg-black opacity-20 md:ml-8"></div>
+          <div class="ml-4 flex items-start md:ml-8">
+            <img src="images/icons/book.svg" class="w-6" alt="Number Of Pages" />
+            <div class="ml-2">
+              <p class="text-lg font-medium">400+</p>
+              <span class="text-sm">Questions</span>
+            </div>
           </div>
         </div>
+        <div class="flex items-center justify-center px-16 py-8 md:hidden">
+          <img class="shadow-2xl" src="images/book.jpg" alt="The Python Code A Practical Guide for Beginners" />
+        </div>
+        <div class="mt-4 flex justify-between md:my-8 md:justify-normal">
+          <a href="https://play.google.com/store/books/details/Nitin_The_Python_Code?id=pO3EEAAAQBAJ&hl=en&gl=US"
+            class="duration-400 cursor-pointer whitespace-pre rounded-lg bg-[#FFC942] px-8 py-3 text-xl font-medium transition-all ease-in-out hover:-translate-y-0.5 hover:drop-shadow-xl">Buy
+            Now</a>
+          <a href="https://play.google.com/books/reader?id=pO3EEAAAQBAJ&pg=GBS.PA48&hl=en"
+            class="ml-0 block cursor-pointer whitespace-pre rounded-lg border border-[#FFC942] bg-[#f7f7f7] px-8 py-3 font-medium transition-all ease-in-out hover:-translate-y-0.5 hover:drop-shadow-xl md:ml-8 lg:ml-8">Free
+            Demo</a>
+        </div>
       </div>
-      <div
-        class="hidden items-center justify-center md:flex md:w-full lg:w-1/2"
-      >
-        <img
-          class="max-w-full shadow-2xl"
-          src="images/book.jpg"
-          alt="The Python Code A Practical Guide for Beginners"
-        />
-      </div>
-    </main>
+    </div>
+    <div class="hidden items-center justify-center md:flex md:w-full lg:w-1/2">
+      <img class="max-w-full shadow-2xl" src="images/book.jpg" alt="The Python Code A Practical Guide for Beginners" />
+    </div>
+  </main>
 
-    <footer class="footer">
-      <div class="social-links">
-        <a href="https://www.instagram.com/skilevel/"
-          ><img src="images/icons/instagram.svg" alt="skilevel instagram"
-        /></a>
-        <a href="https://twitter.com/TheSkilevel"
-          ><img src="images/icons/twitter.svg" alt="skilevel twitter"
-        /></a>
-        <a href="https://www.linkedin.com/in/skilevel-services/"
-          ><img src="images/icons/linkedin.svg" alt="skilevel linkedin"
-        /></a>
-      </div>
-      <p class="copyright">Copyright © 2023 All rights reserved to Skilevel</p>
-    </footer>
-  </body>
+  <footer class="footer">
+    <div class="social-links">
+      <a href="https://www.instagram.com/skilevel/"><img src="images/icons/instagram.svg"
+          alt="skilevel instagram" /></a>
+      <a href="https://twitter.com/TheSkilevel"><img src="images/icons/twitter.svg" alt="skilevel twitter" /></a>
+      <a href="https://www.linkedin.com/in/skilevel-services/"><img src="images/icons/linkedin.svg"
+          alt="skilevel linkedin" /></a>
+    </div>
+    <p class="copyright">Copyright © 2023 All rights reserved to Skilevel</p>
+  </footer>
+</body>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DataFeed",
+    "dataFeedElement": [
+      {
+        "@type": "Book",
+        "@id": "https://skilevel.com/python-book.html",
+        "url": "https://skilevel.com/python-book.html",
+        "name": "The Python Code: A Practical Guide for Beginners",
+        "author": {
+          "@type": "Person",
+          "name": "Nitin, Ankit, Anmol, Utkarsh"
+        },
+        "sameAs": "https://skilevel.com/python-book.html",
+        "workExample": [
+          {
+            "@type": "CreativeWork",
+            "@id": "https://skilevel.com/python-book.html",
+            "name": "The Python Code: A Practical Guide for Beginners",
+            "isbn": "9789360137991",
+            "bookEdition": "1st Edition",
+            "bookFormat": "https://schema.org/EBook",
+            "inLanguage": "en"
+           
+          }
+          
+        ]
+      }
+    ],
+    "dateModified": "2023-11-12T13:58:26.892Z"
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What makes this book suitable for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our book adopts a beginner-friendly approach, breaking down complex Python concepts into easy-to-understand explanations, making it ideal for those new to programming."
+      }
+    },{
+      "@type": "Question",
+      "name": "Does the book cover practical applications of Python concepts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! We emphasize practicality, providing hands-on examples and exercises to reinforce theoretical knowledge, ensuring readers can apply what they learn."
+      }
+    },{
+      "@type": "Question",
+      "name": "Does the book cover object-oriented programming (OOP) topics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, this book focuses on core Python concepts without delving into object-oriented programming, making it accessible for beginners without overwhelming them with advanced topics."
+      }
+    },{
+      "@type": "Question",
+      "name": "Is the content aligned with class 11, 12, and college first-year syllabus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, the book is designed to align seamlessly with the syllabus of class 11, 12, and college first-year courses, covering topics essential for a solid foundation in Python programming."
+      }
+    },{
+      "@type": "Question",
+      "name": "How does the book cater to practical concept explanation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We prioritize practicality by explaining concepts through real-world examples and scenarios. This approach helps readers grasp the practical implications of each concept."
+      }
+    },{
+      "@type": "Question",
+      "name": "Is there online support or additional resources available for readers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer online support, including additional resources, forums, and updates to ensure readers have access to continuous learning opportunities and community support."
+      }
+    }]
+  }
+</script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/", 
+    "@type": "Product", 
+    "name": "The Python Code: A Practical Guide for Beginners",
+    "image": "",
+    "description": ""The Python Code" - an essential guide for beginners seeking an introduction to Python. Unlock the potential of Python through a practical approach to real-life problems. This book serves as your key to mastering the basics, offering a structured path for beginners to delve into the world of Python code. Begin your journey with "The Python Code" and adopt a practical approach to mastering the basics for real-life problem-solving.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Skilevel"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://skilevel.com/python-book.html",
+      "priceCurrency": "INR",
+      "price": "230"
+  }
+  }
+</script>
 
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Corporation",
-      "name": "Skilevel",
-      "url": "https://skilevel.com/",
-      "logo": "https://media.licdn.com/dms/image/D4D03AQEMvG7Qy0Klyw/profile-displayphoto-shrink_400_400/0/1683569780029?e=1689206400&v=beta&t=S8xHIvrw2kv4CXJqMfqKwa32Vp3Ji0ojFCZdsShY2Ho",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "8700361425",
-        "contactType": "technical support",
-        "contactOption": "HearingImpairedSupported",
-        "areaServed": "IN",
-        "availableLanguage": "en"
-      },
-      "sameAs": [
-        "https://www.instagram.com/skilevel/",
-        "https://www.linkedin.com/in/skilevel-services/",
-        "https://twitter.com/TheSkilevel/"
-      ]
-    }
-  </script>
 </html>
